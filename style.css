@@ -303,3 +303,44 @@ footer{
     color:#38BDF8;
     transform:translateY(-5px);
 }
+
+/* Education Section */
+
+#education .project-card{
+    border-left:4px solid #60A5FA;
+}
+
+/* Certifications Section */
+
+#certifications .project-card{
+    border-left:4px solid #38BDF8;
+}
+
+/* Education & Certifications Heading */
+
+#education h2,
+#certifications h2{
+    color:#60A5FA;
+}
+
+/* Education Text */
+
+#education p{
+    color:#D1D5DB;
+    line-height:1.8;
+}
+
+/* Certification Cards */
+
+#certifications .project-card{
+    text-align:center;
+    font-weight:600;
+}
+
+/* Hover Effect */
+
+#education .project-card:hover,
+#certifications .project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px rgba(96,165,250,0.25);
+}
